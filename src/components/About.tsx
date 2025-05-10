@@ -15,12 +15,18 @@ const About: React.FC = () => {
               Backend Developer <br className="hidden md:block" />
               with a focus on <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">data solutions</span>
             </h2>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              I'm Ignacio, a programmer focused on backend development and data analysis. I'm currently studying for a Bachelor's degree in Information Technology Management at UNPAZ, and I've been working hard on personal projects to keep growing. Right now, I'm building a university management system from scratch, applying Python, programming logic, OOP, and data handling.
-              I learn best by doing, and I like to share my progress on GitHub and LinkedIn. I work with Python, SQL, Power BI, and Excel, and I've also explored some JavaScript. I'm always looking to improve and create practical, real-world solutions.
+          <p className="text-gray-300 mb-6 leading-relaxed">
+  I’m Ignacio, a backend developer and data analyst with a focus on continuous learning. I’m currently studying the Bachelor's Degree in Information Technology Management at UNPAZ.
+</p>
 
+<p className="text-gray-300 mb-6 leading-relaxed">
+  I teach introductory Python programming, helping others develop skills in software development and data analysis.
+</p>
 
-            </p>
+<p className="text-gray-300 mb-6 leading-relaxed">
+  I primarily work with Python, SQL, Power BI, and Excel, and share my progress on GitHub and LinkedIn. My approach is centered on creating practical and efficient solutions.
+</p>
+
             <div className="flex flex-wrap gap-3">
               {['Python', 'API Development', 'Data Engineering', 'Backend Architecture'].map((skill, index) => (
                 <span 

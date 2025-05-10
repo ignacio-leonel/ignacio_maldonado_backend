@@ -64,14 +64,19 @@ const Header: React.FC = () => {
           >
             Contact
           </button>
-          <div className="flex space-x-4">
-            <a href="https://github.com/ignacio-leonel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-              <Github className="h-5 w-5" />
-            </a>
-            <a href="https://www.linkedin.com/in/ignaciomaldo/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-              <Linkedin className="h-5 w-5" />
-            </a>
-          </div>
+        <div className="flex space-x-4">
+  <a href="https://github.com/ignacio-leonel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+    <Github className="h-5 w-5" />
+  </a>
+  <a href="https://www.linkedin.com/in/ignaciomaldo/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+    <Linkedin className="h-5 w-5" />
+  </a>
+   <a href="https://wa.me/541151135718?text=Hola%2C%20estoy%20interesado%20en%20tu%20portafolio%20y%20me%20gustaría%20saber%20más" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="h-5 w-5" />
+  </a>
+  
+</div>
+
         </nav>
 
         {/* Mobile Navigation Toggle */}
@@ -112,13 +117,18 @@ const Header: React.FC = () => {
               Contact
             </button>
             <div className="flex space-x-6 pt-6">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <Github className="h-6 w-6" />
-              </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <Linkedin className="h-6 w-6" />
-              </a>
-            </div>
+  <a href="https://github.com/ignacio-leonel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+    <Github className="h-6 w-6" />
+  </a>
+  <a href="https://www.linkedin.com/in/ignaciomaldo/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+    <Linkedin className="h-6 w-6" />
+  </a>
+  <a href="https://wa.me/541151135718?text=Hola%2C%20estoy%20interesado%20en%20tu%20portafolio%20y%20me%20gustaría%20saber%20más" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="h-6 w-6" />
+  </a>
+</div>
+
+
           </nav>
         </div>
       )}
