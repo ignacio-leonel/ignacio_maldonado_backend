@@ -16,7 +16,10 @@ const About: React.FC = () => {
               with a focus on <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">data solutions</span>
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Soy Ignacio, programador enfocado en backend y análisis de datos. Trabajo con Python, SQL y Power BI, y desarrollo proyectos reales como un sistema de gestión universitaria desde cero. Estudio en la UNPAZ y comparto lo que aprendo en LinkedIn y GitHub. Busco seguir creciendo y aportar valor con soluciones prácticas.
+              I'm Ignacio, a programmer focused on backend development and data analysis. I'm currently studying for a Bachelor's degree in Information Technology Management at UNPAZ, and I've been working hard on personal projects to keep growing. Right now, I'm building a university management system from scratch, applying Python, programming logic, OOP, and data handling.
+              I learn best by doing, and I like to share my progress on GitHub and LinkedIn. I work with Python, SQL, Power BI, and Excel, and I've also explored some JavaScript. I'm always looking to improve and create practical, real-world solutions.
+
+
             </p>
             <div className="flex flex-wrap gap-3">
               {['Python', 'API Development', 'Data Engineering', 'Backend Architecture'].map((skill, index) => (
@@ -48,7 +51,7 @@ const About: React.FC = () => {
                 <br />
                 <span className="ml-4">def </span><span className="text-blue-400">__init__</span><span>(self):</span>
                 <br />
-                <span className="ml-8">self.</span><span className="text-green-400">name</span> <span>=</span> <span className="text-yellow-300">"Ignacio Leonel Maldonado"</span>
+                <span className="ml-8">self.</span><span className="text-green-400">name</span> <span>=</span> <span className="text-yellow-300">"Ignacio Maldonado"</span>
                 <br />
                  <span className="ml-8">self.</span><span className="text-green-400">location</span> <span>=</span> <span className="text-yellow-300">"José C. Paz, Bs As"</span>
                 <br />
