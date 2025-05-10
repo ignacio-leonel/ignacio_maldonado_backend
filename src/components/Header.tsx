@@ -65,10 +65,10 @@ const Header: React.FC = () => {
             Contact
           </button>
           <div className="flex space-x-4">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+            <a href="https://github.com/ignacio-leonel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+            <a href="https://www.linkedin.com/in/ignaciomaldo/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
               <Linkedin className="h-5 w-5" />
             </a>
           </div>

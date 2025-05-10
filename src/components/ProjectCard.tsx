@@ -71,7 +71,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       )}
       {!project.link && (
         <div className="flex items-center justify-center py-3 bg-gray-700 text-gray-300 text-sm font-medium">
-          Coming Soon
+          View Project
         </div>
       )}
     </div>

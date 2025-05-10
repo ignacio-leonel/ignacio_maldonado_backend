@@ -3,22 +3,28 @@ import { Terminal } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const textRef = useRef<HTMLDivElement>(null);
-  
+
   useEffect(() => {
+    let isCancelled = false;
+
     const typeText = async () => {
       if (!textRef.current) return;
-      
-      const text = "I'm a backend developer specialized in data processing and API development";
+
+      const text = "Hi! I'm Ignacio, a backend developer and data analyst. Welcome to my portfolio. Here you can explore some of my projects, access the code and repositories, check out the technologies I work with, and get in touch with me for any questions or opportunities.";
       textRef.current.textContent = '';
-      
+
       for (let i = 0; i < text.length; i++) {
-        if (!textRef.current) break;
+        if (!textRef.current || isCancelled) break;
         textRef.current.textContent += text[i];
         await new Promise(resolve => setTimeout(resolve, 50));
       }
     };
-    
+
     typeText();
+
+    return () => {
+      isCancelled = true;
+    };
   }, []);
 
   return (
@@ -28,7 +34,7 @@ const Hero: React.FC = () => {
         aria-hidden="true"
       />
       
-      {/* Code-like background elements */}
+      {/* Fondo tipo código */}
       <div className="absolute inset-0 -z-5 opacity-5">
         <div className="absolute top-1/4 left-1/4 text-xs text-gray-600 font-mono">
           {'def process_data(input_data):'}<br />
@@ -46,21 +52,21 @@ const Hero: React.FC = () => {
           {'    return UserResponse.from_orm(user)'}
         </div>
       </div>
-      
+
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl">
           <div className="flex items-center space-x-2 mb-4">
             <Terminal className="h-6 w-6 text-green-500" />
             <div className="text-green-500 font-mono">~/backend-dev $</div>
           </div>
-          
+
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Backend Developer <br className="hidden md:block" />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">
-              with a passion for data
+              and Data Analyst
             </span>
           </h1>
-          
+
           <div className="relative mb-8">
             <div 
               ref={textRef} 
@@ -68,7 +74,7 @@ const Hero: React.FC = () => {
             ></div>
             <span className="inline-block w-3 h-6 bg-indigo-500 animate-pulse ml-1"></span>
           </div>
-          
+
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <button 
               onClick={() => {

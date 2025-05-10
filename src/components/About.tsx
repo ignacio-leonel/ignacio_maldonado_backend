@@ -16,10 +16,7 @@ const About: React.FC = () => {
               with a focus on <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">data solutions</span>
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate backend developer with expertise in crafting robust server-side solutions. My focus is on creating efficient, scalable systems that handle complex data processing tasks.
-            </p>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              With a background in Python development and data engineering, I specialize in building APIs, data pipelines, and analytics solutions that deliver actionable insights.
+              Soy Ignacio, programador enfocado en backend y análisis de datos. Trabajo con Python, SQL y Power BI, y desarrollo proyectos reales como un sistema de gestión universitaria desde cero. Estudio en la UNPAZ y comparto lo que aprendo en LinkedIn y GitHub. Busco seguir creciendo y aportar valor con soluciones prácticas.
             </p>
             <div className="flex flex-wrap gap-3">
               {['Python', 'API Development', 'Data Engineering', 'Backend Architecture'].map((skill, index) => (
@@ -46,17 +43,20 @@ const About: React.FC = () => {
               <code>
                 <span className="text-purple-400">class</span> <span className="text-yellow-300">BackendDeveloper</span>:
                 <br />
-                <span className="text-gray-400 ml-4">"""A class representing my professional profile"""</span>
+                <span className="text-gray-400 ml-4">"Profesional Profile"</span>
                 <br />
                 <br />
                 <span className="ml-4">def </span><span className="text-blue-400">__init__</span><span>(self):</span>
                 <br />
-                <span className="ml-8">self.</span><span className="text-green-400">name</span> <span>=</span> <span className="text-yellow-300">"Your Name"</span>
+                <span className="ml-8">self.</span><span className="text-green-400">name</span> <span>=</span> <span className="text-yellow-300">"Ignacio Leonel Maldonado"</span>
+                <br />
+                 <span className="ml-8">self.</span><span className="text-green-400">location</span> <span>=</span> <span className="text-yellow-300">"José C. Paz, Buenos Aires, Argentina"</span>
                 <br />
                 <span className="ml-8">self.</span><span className="text-green-400">role</span> <span>=</span> <span className="text-yellow-300">"Backend Developer"</span>
                 <br />
                 <span className="ml-8">self.</span><span className="text-green-400">expertise</span> <span>=</span> <span className="text-blue-400">{"["}</span>
                 <br />
+                
                 <span className="ml-12 text-yellow-300">"Python Development"</span>,
                 <br />
                 <span className="ml-12 text-yellow-300">"API Design"</span>,
@@ -70,7 +70,7 @@ const About: React.FC = () => {
                 <br />
                 <span className="ml-4">def </span><span className="text-blue-400">get_experience</span><span>(self):</span>
                 <br />
-                <span className="ml-8">return</span> <span className="text-yellow-300">"5+ years"</span>
+                <span className="ml-8">return</span> <span className="text-yellow-300">"2 years"</span>
               </code>
             </pre>
           </div>

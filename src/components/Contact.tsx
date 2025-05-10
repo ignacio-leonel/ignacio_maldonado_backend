@@ -17,19 +17,19 @@ const Contact: React.FC = () => {
         </div>
         
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-          <a 
-            href="mailto:your.email@example.com" 
+          <a
+            href="mailto:ignacio.lm1991@gmail.com" 
             className="bg-gray-900 border border-gray-700 rounded-lg p-6 text-center hover:border-indigo-500 transition-all duration-300 group"
           >
             <div className="bg-gray-800 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:bg-indigo-900/30 transition-all duration-300">
               <Mail className="h-8 w-8 text-indigo-400" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
-            <p className="text-gray-400 group-hover:text-indigo-300 transition-all duration-300">your.email@example.com</p>
+            <p className="text-gray-400 group-hover:text-indigo-300 transition-all duration-300">ignacio.lm1991@gmail.com</p>
           </a>
           
           <a 
-            href="https://github.com/" 
+            href="https://github.com/ignacio-leonel/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-gray-900 border border-gray-700 rounded-lg p-6 text-center hover:border-indigo-500 transition-all duration-300 group"
@@ -38,11 +38,11 @@ const Contact: React.FC = () => {
               <Github className="h-8 w-8 text-indigo-400" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">GitHub</h3>
-            <p className="text-gray-400 group-hover:text-indigo-300 transition-all duration-300">github.com/yourusername</p>
+            <p className="text-gray-400 group-hover:text-indigo-300 transition-all duration-300">Ignacio Maldonado</p>
           </a>
           
           <a 
-            href="https://linkedin.com/" 
+            href="https://www.linkedin.com/in/ignaciomaldo/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-gray-900 border border-gray-700 rounded-lg p-6 text-center hover:border-indigo-500 transition-all duration-300 group"
@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
               <Linkedin className="h-8 w-8 text-indigo-400" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">LinkedIn</h3>
-            <p className="text-gray-400 group-hover:text-indigo-300 transition-all duration-300">linkedin.com/in/yourusername</p>
+            <p className="text-gray-400 group-hover:text-indigo-300 transition-all duration-300">Ignacio Maldonado</p>
           </a>
         </div>
         

@@ -6,22 +6,26 @@ export interface Skill {
 export const skills: Skill[] = [
   {
     category: 'Languages',
-    items: ['Python', 'SQL', 'JavaScript/TypeScript', 'Bash']
+    items: ['Python', 'SQL', 'JavaScript', 'Bash']
   },
   {
-    category: 'Frameworks',
-    items: ['FastAPI', 'Flask', 'Django', 'Express.js']
+    category: 'Frameworks & Libraries',
+    items: ['FastAPI', 'Flask', 'Streamlit', 'Pandas', 'NumPy']
   },
   {
-    category: 'Data',
-    items: ['PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch']
+    category: 'Data & BI',
+    items: ['Power BI', 'Jupyter Notebooks', 'Excel avanzado', 'ETL']
   },
   {
-    category: 'Tools',
-    items: ['Docker', 'Git', 'Jupyter', 'PowerBI']
+    category: 'Databases',
+    items: ['PostgreSQL', 'SQLite', 'MongoDB (básico)']
   },
   {
-    category: 'Cloud',
-    items: ['AWS', 'Azure', 'Google Cloud', 'Heroku']
+    category: 'Tools & DevOps',
+    items: ['Git', 'Docker (básico)', 'VS Code', 'Linux CLI']
+  },
+  {
+    category: 'Cloud & Deployment',
+    items: ['Render', 'Vercel', 'GitHub Pages']
   },
 ];
