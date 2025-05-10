@@ -50,7 +50,7 @@ const About: React.FC = () => {
                 <br />
                 <span className="ml-8">self.</span><span className="text-green-400">name</span> <span>=</span> <span className="text-yellow-300">"Ignacio Leonel Maldonado"</span>
                 <br />
-                 <span className="ml-8">self.</span><span className="text-green-400">location</span> <span>=</span> <span className="text-yellow-300">"José C. Paz, Buenos Aires, Argentina"</span>
+                 <span className="ml-8">self.</span><span className="text-green-400">location</span> <span>=</span> <span className="text-yellow-300">"José C. Paz, Bs As"</span>
                 <br />
                 <span className="ml-8">self.</span><span className="text-green-400">role</span> <span>=</span> <span className="text-yellow-300">"Backend Developer"</span>
                 <br />

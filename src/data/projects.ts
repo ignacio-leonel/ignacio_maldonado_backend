@@ -18,7 +18,7 @@ export const projects: Project[] = [
     technologies: ['Python', 'Pandas', 'Jupyter Notebook'],
     type: 'jupyter',
     link:'https://github.com/ignacio-leonel/ventas_china',
-    image: 'https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://images.pexels.com/photos/942320/pexels-photo-942320.jpeg',
   },
  
   {
