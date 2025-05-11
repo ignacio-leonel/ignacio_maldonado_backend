@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
     : projects;
 
   return (
-    <section id="projects" className="py-20 bg-gray-800">
+    <section id="projects" className="py-20 bg-Blue-500">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-indigo-900/30 text-indigo-400 mb-6">

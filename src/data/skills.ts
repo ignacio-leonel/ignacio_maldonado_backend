@@ -12,6 +12,10 @@ export const skills: Skill[] = [
     category: 'Frameworks & Libraries',
     items: ['FastAPI', 'Flask', 'Streamlit', 'Pandas', 'NumPy']
   },
+    {
+    category: 'Web & Deployment',
+    items: ['HTML5', 'CSS3', 'Next.js', 'Vercel']
+  },
   {
     category: 'Data & BI',
     items: ['Power BI', 'Jupyter Notebooks', 'Excel avanzado', 'ETL']
@@ -24,8 +28,5 @@ export const skills: Skill[] = [
     category: 'Tools & DevOps',
     items: ['Git', 'Docker (básico)', 'VS Code', 'Linux CLI']
   },
-  {
-    category: 'Cloud & Deployment',
-    items: ['Render', 'Vercel', 'GitHub Pages']
-  },
+  
 ];

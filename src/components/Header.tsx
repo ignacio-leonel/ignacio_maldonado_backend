@@ -44,25 +44,25 @@ const Header: React.FC = () => {
             onClick={() => scrollToSection('about')}
             className="text-gray-300 hover:text-white transition-colors duration-300"
           >
-            About
+            Sobre mí
           </button>
           <button 
             onClick={() => scrollToSection('projects')}
             className="text-gray-300 hover:text-white transition-colors duration-300"
           >
-            Projects
+            Proyectos
           </button>
           <button 
             onClick={() => scrollToSection('skills')}
             className="text-gray-300 hover:text-white transition-colors duration-300"
           >
-            Skills
+            Habilidades
           </button>
           <button 
             onClick={() => scrollToSection('contact')}
             className="text-gray-300 hover:text-white transition-colors duration-300"
           >
-            Contact
+            Contacto
           </button>
         <div className="flex space-x-4">
   <a href="https://github.com/ignacio-leonel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
@@ -96,25 +96,25 @@ const Header: React.FC = () => {
               onClick={() => scrollToSection('about')}
               className="text-xl text-gray-300 hover:text-white transition-colors duration-300"
             >
-              About
+              Sobre mí
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
               className="text-xl text-gray-300 hover:text-white transition-colors duration-300"
             >
-              Projects
+              Proyectos
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
               className="text-xl text-gray-300 hover:text-white transition-colors duration-300"
             >
-              Skills
+              Habilidades
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
               className="text-xl text-gray-300 hover:text-white transition-colors duration-300"
             >
-              Contact
+              Contacto
             </button>
             <div className="flex space-x-6 pt-6">
   <a href="https://github.com/ignacio-leonel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">

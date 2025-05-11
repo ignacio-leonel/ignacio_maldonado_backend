@@ -3,16 +3,17 @@ import {  Github, Linkedin, MessageSquare, } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className="py-20 bg-gray-800">
+    <section id="contact" className="bg-blue-800 py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center px-3 py-1 rounded-full bg-indigo-900/30 text-indigo-400 mb-6">
+          <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-900 text-grey-400 mb-6">
             <MessageSquare className="w-4 h-4 mr-2" />
-            <span>Get in Touch</span>
+            <span>Contactame</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Let's Connect</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Sigamos en contacto</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Interested in working together or have a question? Feel free to reach out through any of these channels.
+¿Tenés alguna consulta, Querés proponer una colaboración o bien una entrevista? Estoy disponible en estos canales.
+
           </p>
         </div>
         
@@ -35,7 +36,7 @@ const Contact: React.FC = () => {
 
         
           <a 
-            href="Enviar Mensaje" 
+            href= "https://github.com/ignacio-leonel"
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-gray-900 border border-gray-700 rounded-lg p-6 text-center hover:border-indigo-500 transition-all duration-300 group"
@@ -63,7 +64,8 @@ const Contact: React.FC = () => {
         
         <div className="mt-16 text-center">
           <p className="text-gray-400 mb-4">
-            Looking forward to hearing from you!
+¡Quedo atento a tu mensaje!
+
           </p>
           <div className="inline-block px-4 py-2 bg-gray-900 border border-gray-700 rounded-lg text-gray-300 font-mono">
             <span className="text-green-500">$</span> echo "Hello, World!"

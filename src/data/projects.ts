@@ -20,6 +20,7 @@ export const projects: Project[] = [
     link:'https://github.com/ignacio-leonel/ventas_china',
     image: 'https://images.pexels.com/photos/942320/pexels-photo-942320.jpeg',
   },
+
  
   {
     id: 'yxaworld',
@@ -49,4 +50,14 @@ export const projects: Project[] = [
     link:'https://github.com/ignacio-leonel/Analisis_Ebay',
     image: 'https://images.pexels.com/photos/63695/pexels-photo-63695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
+  {
+  id: 'portfolio_web',
+  title: 'Personal Developer Portfolio',
+  description: 'Responsive portfolio website showcasing my backend & data projects, skills, and direct contact options (WhatsApp, LinkedIn), built from scratch with modern web technologies.',
+  technologies: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS', 'Next.js', 'Vercel'],
+  type: 'website',
+  link: 'https://ignacio-maldonado-backend.vercel.app/',
+  image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg'
+},
+
 ];

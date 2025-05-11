@@ -28,10 +28,9 @@ const Skills: React.FC = () => {
             <Code className="w-4 h-4 mr-2" />
             <span>Skills & Expertise</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Technical Proficiencies</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Habilidades Técnicas</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            My technical toolkit includes a range of languages, frameworks, and technologies
-            focused on backend development and data processing.
+            Mi conjunto de herramientas técnicas incluye una variedad de lenguajes, frameworks y tecnologías enfocadas en el desarrollo backend y el procesamiento de datos
           </p>
         </div>
         
@@ -59,32 +58,7 @@ const Skills: React.FC = () => {
           ))}
         </div>
         
-        <div className="mt-16 bg-gradient-to-r from-indigo-900/20 to-purple-900/20 border border-indigo-800/30 rounded-xl p-6 md:p-8">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="mb-6 md:mb-0 md:mr-8">
-              <h3 className="text-2xl font-bold text-white mb-2">Want to work together?</h3>
-              <p className="text-gray-300">
-                I'm currently available for freelance projects and collaboration opportunities.
-              </p>
-            </div>
-            <div className="flex-shrink-0">
-              <button 
-                onClick={() => {
-                  const element = document.getElementById('contact');
-                  if (element) {
-                    window.scrollTo({
-                      top: element.offsetTop - 100,
-                      behavior: 'smooth'
-                    });
-                  }
-                }}
-                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-all duration-300"
-              >
-                Contact Me
-              </button>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

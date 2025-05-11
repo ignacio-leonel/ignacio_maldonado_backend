@@ -9,23 +9,24 @@ const About: React.FC = () => {
           <div className="md:w-1/2 mb-8 md:mb-0">
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-indigo-900/30 text-indigo-400 mb-6">
               <Code2 className="w-4 h-4 mr-2" />
-              <span>About Me</span>
+              <span>Acerca de mí</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Backend Developer <br className="hidden md:block" />
-              with a focus on <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">data solutions</span>
+             Desarrollador Backend <br className="hidden md:block" />
+              y <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">Analista de datos</span>
             </h2>
           <p className="text-gray-300 mb-6 leading-relaxed">
-  I’m Ignacio, a backend developer and data analyst with a focus on continuous learning. I’m currently studying the Bachelor's Degree in Information Technology Management at UNPAZ.
+  Soy Ignacio, desarrollador backend y analista de datos con enfoque en el aprendizaje continuo. Actualmente estudio la Licenciatura en Gestión de Tecnologías de la Información en la UNPAZ.
 </p>
 
 <p className="text-gray-300 mb-6 leading-relaxed">
-  I teach introductory Python programming, helping others develop skills in software development and data analysis.
+  Doy clases introductorias de programación en <span translate="no">Python</span>, ayudando a otros a desarrollar habilidades en desarrollo de software y análisis de datos.
 </p>
 
 <p className="text-gray-300 mb-6 leading-relaxed">
-  I primarily work with Python, SQL, Power BI, and Excel, and share my progress on GitHub and LinkedIn. My approach is centered on creating practical and efficient solutions.
+  Trabajo principalmente con <span translate="no">Python</span>, SQL, Power BI y Excel, y comparto mi progreso en GitHub y LinkedIn. Mi enfoque está centrado en crear soluciones prácticas y eficientes.
 </p>
+
 
             <div className="flex flex-wrap gap-3">
               {['Python', 'API Development', 'Data Engineering', 'Backend Architecture'].map((skill, index) => (

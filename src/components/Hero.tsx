@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
     const typeText = async () => {
       if (!textRef.current) return;
 
-      const text = "Hi! I'm Ignacio, a backend developer and data analyst. Welcome to my portfolio. Here you can explore some of my projects, access the code and repositories, check out the technologies I work with, and get in touch with me for any questions or opportunities.";
+      const text = "Acá vas a encontrar algunos de mis proyectos, las tecnologías que utilizo y una forma de contactarme. ¡Exploralo tranquilo!";
       textRef.current.textContent = '';
 
       for (let i = 0; i < text.length; i++) {
@@ -61,9 +61,9 @@ const Hero: React.FC = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Backend Developer <br className="hidden md:block" />
+            Hola soy Ignacio<br className="hidden md:block" />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-600">
-              and Data Analyst
+              Desarrollador Back-end y Analista de Datos.
             </span>
           </h1>
 
@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
               }}
               className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/20"
             >
-              View My Projects
+              Ver mis proyectos
             </button>
             <button 
               onClick={() => {
@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
               }}
               className="px-6 py-3 bg-transparent border border-indigo-500 text-indigo-400 hover:text-indigo-300 hover:border-indigo-400 font-medium rounded-lg transition-all duration-300"
             >
-              Contact Me
+              Contactame
             </button>
           </div>
         </div>

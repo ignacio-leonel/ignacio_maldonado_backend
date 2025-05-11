@@ -10,19 +10,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const typeColors = {
     powerbi: 'from-yellow-500 to-orange-500',
     jupyter: 'from-blue-500 to-cyan-500',
-    python: 'from-green-500 to-emerald-500'
+    python: 'from-green-500 to-emerald-500',
+    website: 'from-cyan-400 to-blue-400'
   };
 
   const typeBackgrounds = {
     powerbi: 'bg-yellow-900/20',
     jupyter: 'bg-blue-900/20',
-    python: 'bg-green-900/20'
+    python: 'bg-green-900/20',
+    website:'bg-purple-900'
   };
 
   const typeBorders = {
     powerbi: 'border-yellow-800',
     jupyter: 'border-blue-800',
-    python: 'border-green-800'
+    python: 'border-green-800',
+    website: 'border-white-800'
   };
 
   return (
