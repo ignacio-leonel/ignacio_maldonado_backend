@@ -16,11 +16,11 @@ const Projects: React.FC = () => {
         <div className="text-center mb-12">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-indigo-900/30 text-indigo-400 mb-6">
             <FolderKanban className="w-4 h-4 mr-2" />
-            <span>My Work</span>
+            <span>Proyectos</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Featured Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Proyectos relevantes</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Explore my projects showcasing expertise in PowerBI, Jupyter notebooks, and Python development.
+            Descubrí mis proyectos, donde aplico mi experiencia en Power BI, Jupyter Notebooks y desarrollo en Python para crear soluciones funcionales, visuales e impulsadas por datos reales.
           </p>
         </div>
         
@@ -66,6 +66,17 @@ const Projects: React.FC = () => {
             >
               Python
             </button>
+            <button
+              onClick={() => setActiveFilter('website')}
+              className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                activeFilter === 'website' 
+                  ? 'bg-purple-900/30 text-purple-400 shadow-md' 
+                  : 'text-gray-400 hover:text-white'
+              }`}
+            >
+              Website
+            </button>
+
           </div>
         </div>
         

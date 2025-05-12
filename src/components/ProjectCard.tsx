@@ -69,7 +69,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           rel="noopener noreferrer"
           className={`flex items-center justify-center py-3 bg-gradient-to-r ${typeColors[project.type]} text-white text-sm font-medium transition-all duration-300`}
         >
-          View Project <ExternalLink className="w-4 h-4 ml-2" />
+          Ver en GitHub <ExternalLink className="w-4 h-4 ml-2" />
         </a>
       )}
       {!project.link && (
